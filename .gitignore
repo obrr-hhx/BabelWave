@@ -1,0 +1,33 @@
+.DS_Store
+.ignore
+
+# Local builds and compiler caches
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.app/
+*.dylib
+*.o
+*.a
+
+# Downloaded model weights
+*.gguf
+*.safetensors
+
+# Local runtime and test artifacts
+*.log
+*.pcm
+*.wav
+*.aiff
+*.mp3
+*.ogg
+
+# Swift/Xcode user state
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/

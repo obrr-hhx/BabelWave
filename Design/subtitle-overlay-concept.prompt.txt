@@ -1,0 +1,16 @@
+Use case: ui-mockup
+Asset type: high-fidelity macOS floating bilingual subtitle overlay design reference for implementation
+Primary request: Design a beautiful, compact, highly usable floating subtitle window for a local real-time translation app named BabelWave. The overlay floats at the lower center of a dark cinematic macOS desktop. It must feel like premium native macOS software, not a web card.
+Subject: One wide rounded horizontal translucent glass panel. Inside, two centered subtitle rows: the smaller source line reads exactly "Good evening, BabelWave." and the larger translated line reads exactly "晚上好，BabelWave。". A slim dedicated drag grip is visibly centered along the top edge. On hover, a restrained control cluster is clearly visible: a pin/lock control, minus and plus text-size controls, and a circular close button with an x. Show a subtle but clearly discoverable resize grip at the bottom-right corner. Controls must be large enough to click and have obvious hit targets, while remaining elegant.
+Style/medium: high-fidelity Apple-like desktop UI product mockup; refined native AppKit aesthetic; precise spacing and typography; realistic layered vibrancy and blur
+Composition/framing: 16:9 macOS desktop screenshot, panel at lower center occupying about 55% of screen width; keep focus on the panel; show enough desktop around it to communicate placement
+Lighting/mood: sophisticated dark cinematic background with cool slate-blue highlights; glass catches soft ambient light
+Color palette: smoke-black translucent glass, cool graphite, white text, muted cyan accent for interactive controls, subtle warm red close button only on hover
+Materials/textures: real frosted glass with strong background diffusion, inner highlight, thin luminous rim, soft deep shadow; avoid flat gray fill
+Text (verbatim): "Good evening, BabelWave." and "晚上好，BabelWave。"
+Constraints: controls must look implementable with native macOS AppKit; distinct top drag region; distinct close button; distinct text-size minus/plus; distinct lock; distinct bottom-right resize handle; excellent legibility; no normal app window chrome; no settings window; no Dock; no extra panels
+Avoid: oversized card, giant padding, Windows styling, mobile UI, generic website glassmorphism, clutter, neon cyberpunk, gradients behind text, fake logos, watermark, misspelled text
+
+Implementation note: the final application intentionally replaces the prompt's
+smoke-black and cyan color direction with the user's later requirement: pure
+system transparent frosted glass with no custom background tint.
